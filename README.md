@@ -1,0 +1,1 @@
+This repository demonstrates a subtle but common error in Ruby related to getter methods and object immutability.  The `bug.rb` file shows how assigning a value to the result of a getter method does not change the internal state of the object.  The `bugSolution.rb` file provides the correct solution using a setter method.
